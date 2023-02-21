@@ -30,6 +30,20 @@
     -webkit-background-image: linear-gradient(to right,  black, gray, black, gray);
 }
 
+.button__hide {
+    display: inline-block;
+    background-color: var(--title-color);
+    color: var(--container-color);
+    padding: 1.25rem 2rem;
+    border-radius: 1rem;
+    font-weight: var(--font-medium);
+  }
+
+.hideNumber {
+    color: white;
+    margin-left: 20px;
+  }
+
 @keyframes gradient-animation {
     0% {
       background-position: 0% 50%;
