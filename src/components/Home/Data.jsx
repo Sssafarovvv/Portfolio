@@ -11,8 +11,8 @@ const Data = () => {
       </h1>
       <h3 className="home__subtitle">Frontend React Developer</h3>
       <p className="home__description">
-        Я способный разработчик Frontend React разработчик, который готов
-        участвовать в разработке сложных SPA приложений!
+        Я способный Frontend React разработчик, который готов
+        участвовать в создании сложных SPA приложений!
       </p>
 
       {!isVisible ? (
