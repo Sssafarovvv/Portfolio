@@ -4,7 +4,7 @@ export const Data = [
   {
     id: 1,
     title: "Социальная сеть",
-    src: "https://www.youtube.com/embed/an5EE45HqSE",
+    src: "https://www.youtube.com/embed/YoaKCMV500U",
     description:
       "Социальная сеть написанная с помощью React, Redux и TypeScript, в которой реализован почти весь важный функционал для современной социальной сети",
   },
