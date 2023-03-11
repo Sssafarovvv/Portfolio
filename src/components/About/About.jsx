@@ -2,6 +2,7 @@ import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/about.jpg";
 import Info from "./Info";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -15,12 +16,14 @@ const About = () => {
           <Info />
           <p className="about__description">
             Занимаюсь Frontend разработкой год. Мечтаю работать в
-            команде и набираться опыта.
+            команде и набираться опыта. Мой стек технологий, на котором я создаю:  <Link to="/skills">
+                <i className="uil uil-file-alt nav__icon"></i> Стек
+              </Link>
           </p>
           <a
             href="https://hh.ru/resume/ccdf7a21ff046825970039ed1f5273514d5a31"
             className="button button--flex jump"
-            target="_blank"
+            target="blank"
           >
             Ссылка на HH
             <svg

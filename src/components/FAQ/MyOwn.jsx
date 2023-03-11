@@ -1,10 +1,13 @@
 import React from "react";
 
-const Frontend = () => {
+const MyOwn = () => {
   return (
     <div className="skills__content fade-in" id="skills">
 
-      <div className="skills__box">
+
+      В разработке...
+
+      {/* <div className="skills__box">
         <div className="skills__group">
           <div className="skills__data">
             <i class="bx bxl-react icon__react"></i>
@@ -94,9 +97,9 @@ const Frontend = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
 
-export default Frontend;
+export default MyOwn;

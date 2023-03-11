@@ -6,6 +6,7 @@ import Skills from "./components/Skills/Skills";
 import { Routes, Route } from "react-router-dom";
 import Contacts from "./components/Contacts/Contacts";
 import Testimonials from './components/Testimonials/Testimonials';
+import FAQ from "./components/FAQ/FAQ";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/projects" element={<Testimonials />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/contact" element={<Contacts />} />
+        <Route path="/faq" element={<FAQ />} />
       </Routes>
     </>
   );

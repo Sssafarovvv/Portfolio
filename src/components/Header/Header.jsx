@@ -40,11 +40,12 @@ const Header = () => {
               </Link>
             </li>
 
-            {/* <li className="nav__item">
-              <Link to="/info" className="nav__link">
+             <li className="nav__item">
+              <Link to="/faq" className="nav__link">
                 <i class="uil uil-comment-info nav__icon"></i> FAQ
               </Link>
-            </li> */}
+            </li>
+            
           </ul>
           <i
             className="uil uil-times nav__close"
