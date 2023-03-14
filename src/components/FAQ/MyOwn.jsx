@@ -4,100 +4,69 @@ const MyOwn = () => {
   return (
     <div className="skills__content fade-in" id="skills">
 
-
-      В разработке...
-
-      {/* <div className="skills__box">
+      <div className="skills__box">
         <div className="skills__group">
           <div className="skills__data">
-            <i class="bx bxl-react icon__react"></i>
+            <i class='bx bx-meh-blank'></i>
             <div>
               <h3 className="skills__name">React</h3>
               <span className="skills__level">
-                React Hooks, Class Components, React-Router-Dom
+                Меня зовут Диёр, мне 20 лет. Я занимаюсь разработкой на React уже год. Прежде всего я позиционирую себя как React разработчик, не JS разработчик.
               </span>
             </div>
           </div>
 
           <div className="skills__data">
-            <i class="bx bxl-typescript icon"></i>
+          <i class='bx bx-time-five' ></i>
             <div>
               <h3 className="skills__name">TypeScript</h3>
               <span className="skills__level">
-                Типизация React Components, Redux, Redux Toolkit, Redux Thunk
+                Я обладаю всеми нужными навыками для участия в современной разработки. Из личных скиллов, могу выделить: адаптивность, ответственность и пунктуальность
               </span>
             </div>
           </div>
 
           <div className="skills__data">
-            <i class="bx bxl-redux icon"></i>
+          <i class='bx bx-extension' ></i>
             <div>
-              <h3 className="skills__name">Redux | Redux-Toolkit</h3>
+              <h3 className="skills__name">Что я уже реализовывал?</h3>
               <span className="skills__level">
-                State-management, работа с legacy code mDtP, mStP, работа с хуками useDispatch(), useSelector()
+                Я умею реализовывать вёрстку на FlexBox/Grid/Адаптив, логинизацию и авторизацию, пагинацию, debounce пагинации, работа с различным API, роутинг и роутинг с параметрами, использование как хуков, так и классовых компонентов, и всё это типизировать. Помимо того, умею всё это реализовывать на хуках, либо использовать Redux
               </span>
             </div>
           </div>
 
           <div className="skills__data">
-          <i class='bx bxl-html5 icon'></i>
+          <i class='bx bxs-shopping-bags' ></i>
             <div>
-              <h3 className="skills__name">HTML5</h3>
+              <h3 className="skills__name">Образование</h3>
               <span className="skills__level">
-                Адаптивная и responsive вёрстка
+                На данный момент учусь на 3-ем курсе в вузе Университет МИСИС
               </span>
             </div>
           </div>
 
           <div className="skills__data">
-          <i class='bx bxl-css3 icon'></i>
+          <i class='bx bx-user-voice' ></i>
             <div>
-              <h3 className="skills__name">CSS3</h3>
+              <h3 className="skills__name">Английский</h3>
               <span className="skills__level">
-                CSS Modules, CSS grid, Tailwind CSS
+                Обладаю уверенным B2-B1 английским. Спокойно читаю документацию и форумы на английском языке. Без сложностей слушаю тех. видео на английском. Свободно разговариваю на различные темы
               </span>
             </div>
           </div>
 
           <div className="skills__data">
-          <i class='bx bxl-nodejs icon'></i>
+          <i class='bx bx-horizontal-right' ></i>
             <div>
-              <h3 className="skills__name">JavaScript</h3>
+              <h3 className="skills__name">Планы на будущее</h3>
               <span className="skills__level">
-                Отличное знание основ программирования на JavaScript, ООП
-              </span>
-            </div>
-          </div>
-
-          <div className="skills__data">
-          <i class='bx bx-server icon'></i>
-            <div>
-              <h3 className="skills__name">AJAX</h3>
-              <span className="skills__level">
-                Работа со сторонним API, HTTP requests, fetch, работа с Axios. API запросы с помощью Redux-Thunk
-              </span>
-            </div>
-          </div>
-
-          <div className="skills__data">
-            <i class="bx bxl-git icon"></i>
-            <div>
-              <h3 className="skills__name">Git, npm</h3>
-              <span className="skills__level">Git push origin</span>
-            </div>
-          </div>
-
-          <div className="skills__data">
-          <i class='bx bxl-bootstrap icon'></i>
-            <div>
-              <h3 className="skills__name">Bootstrap 5 | Ant Design</h3>
-              <span className="skills__level">
-                Bootstrap, React-Bootstrap, Ant-Design
+                Я точно планирую начать изучать backend. И не для того, чтобы стать fullstack-разработчиком, а для того, чтобы понимать, какие процессы происходят на серверной части. В планах изучить GraphQL + Apollo, а также Effector. Буду только за, если вы меня этому научите!
               </span>
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };
