@@ -9,7 +9,7 @@ const MyOwn = () => {
           <div className="skills__data">
             <i class='bx bx-meh-blank'></i>
             <div>
-              <h3 className="skills__name">React</h3>
+              <h3 className="skills__name">Обо мне</h3>
               <span className="skills__level">
                 Меня зовут Диёр, мне 20 лет. Я занимаюсь разработкой на React уже год. Прежде всего я позиционирую себя как React разработчик, не JS разработчик.
               </span>
@@ -19,7 +19,7 @@ const MyOwn = () => {
           <div className="skills__data">
           <i class='bx bx-time-five' ></i>
             <div>
-              <h3 className="skills__name">TypeScript</h3>
+              <h3 className="skills__name">Softskills</h3>
               <span className="skills__level">
                 Я обладаю всеми нужными навыками для участия в современной разработки. Из личных скиллов, могу выделить: адаптивность, ответственность и пунктуальность
               </span>
