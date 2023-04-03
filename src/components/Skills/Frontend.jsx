@@ -21,7 +21,7 @@ const Frontend = () => {
             <div>
               <h3 className="skills__name">TypeScript</h3>
               <span className="skills__level">
-                Типизация React Components, Redux, Redux Toolkit, Redux Thunk
+                Типизация React Components, Redux, Redux Toolkit, Redux-Thunk
               </span>
             </div>
           </div>
@@ -29,9 +29,9 @@ const Frontend = () => {
           <div className="skills__data">
             <i class="bx bxl-redux icon"></i>
             <div>
-              <h3 className="skills__name">Redux | Redux-Toolkit</h3>
+              <h3 className="skills__name">Redux | Redux-Toolkit | RTK Query</h3>
               <span className="skills__level">
-                State-management, работа с legacy code mDtP, mStP, работа с хуками useDispatch(), useSelector()
+                State-management, работа с legacy code mDtP, mStP, работа с хуками useDispatch(), useSelector(), запросы с помощью RTK Query
               </span>
             </div>
           </div>
