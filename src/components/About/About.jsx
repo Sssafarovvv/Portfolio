@@ -15,10 +15,11 @@ const About = () => {
         <div className="about__data">
           <Info />
           <p className="about__description">
-            Занимаюсь Frontend разработкой год. Мечтаю работать в
-            команде и набираться опыта. Мой стек технологий, на котором я создаю:  <Link to="/skills">
-                <i className="uil uil-file-alt nav__icon"></i> Стек
-              </Link>
+            Занимаюсь Frontend разработкой год. Мечтаю работать в команде и
+            набираться опыта. Мой стек технологий, на котором я создаю:{" "}
+            <Link to="/skills">
+              <i className="uil uil-file-alt nav__icon"></i> Стек
+            </Link>
           </p>
           <a
             href="https://hh.ru/resume/ccdf7a21ff046825970039ed1f5273514d5a31"
