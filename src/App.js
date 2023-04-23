@@ -18,7 +18,7 @@ function App() {
           element={
             <main className="main">
               <Home />
-              <Stack />
+              <Testimonials />
               <About />
               <Contacts />
             </main>
