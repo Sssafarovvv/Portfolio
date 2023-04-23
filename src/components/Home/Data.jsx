@@ -10,8 +10,8 @@ const Data = () => {
       <h1 className="home__title">Safarov Diyor</h1>
       <h3 className="home__subtitle">Frontend React Developer</h3>
       <p className="home__description">
-        Я Frontend React разработчик, который готов участвовать в
-        создании сложных SPA приложений
+        Я Frontend React разработчик коммерческого уровня, который готов участвовать в
+        создании сложных SPA и web-приложений
       </p>
     </motion.div>
   );
