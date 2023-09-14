@@ -20,14 +20,14 @@ function App() {
               <Home />
               <Testimonials />
               <About />
-              <Contacts />
+              {/* <Contacts /> */}
             </main>
           }
         />
         <Route path="/projects" element={<Testimonials />} />
         <Route path="/skills" element={<Stack />} />
-        <Route path="/contact" element={<Contacts />} />
-        <Route path="/faq" element={<FAQ />} />
+        {/* <Route path="/contact" element={<Contacts />} /> */}
+        {/* <Route path="/faq" element={<FAQ />} /> */}
       </Routes>
     </>
   );
